@@ -1,8 +1,6 @@
 import React from 'react'
-import '../Components/Navbar.css'
+import '../Pages/Home.css'
 import img3 from '../Assests/img3.jpg';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 const Home = () => {
   return (
     <>

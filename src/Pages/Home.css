@@ -1,0 +1,147 @@
+.Image img {
+    width: 450px; 
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 65px;
+    margin-top: 70px;
+    filter: grayscale(100%);
+    
+  }
+  .Text{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 1.5px;
+  }
+  .Para{
+    margin-top: 119px;
+  }
+ 
+.Bit{
+font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -54px;
+}
+p{
+    font-size: 16px;
+  letter-spacing: normal;
+  font-family: cursive;
+  margin-top: -23px;
+}
+  h6{
+    font-family: italic;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .Container {
+    display: flex;
+    position: relative; 
+
+  }
+  .Harika  {
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+    color: black;
+    position: absolute;
+  }
+  
+  .Circles {
+    position: absolute;
+    top: 0;
+    right: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 400px; 
+    gap: 30px;
+    
+  }
+  
+  .Content {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid black;  
+  }
+  .Content:nth-child(1) {
+    background-color:#B3E5FC; 
+    color: #000;
+    margin-bottom: 110px;
+    font-family: italic;
+    font-weight: bold;
+    
+  }
+  
+  .Content:nth-child(2) {
+    background-color: #B2EBF2;
+    color: #000;
+    margin-bottom: 110px;
+    font-family: italic;
+    font-weight: bold;
+  }
+  
+  .Content:nth-child(3) {
+    background-color:#B2DFDB; 
+    color: black;
+    margin-bottom: 110px;
+    font-family: italic;
+    font-weight: bold;
+  }
+  .Content:hover {
+    background-color: white; 
+    color: black; 
+    transition: background-color 0.3s ease;
+  }
+  .Circles a {
+    text-decoration: none; 
+    color: #000; 
+  }
+ 
+@media screen and (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+  }
+
+  .Text {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Circles {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Content {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px; /* Adjusted margin to reduce the gap */
+  }
+
+  .Circles {
+    margin-top: 20px;
+  }
+}

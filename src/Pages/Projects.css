@@ -1,0 +1,27 @@
+.Container-project {
+  display: flex;
+  justify-content: left;
+}
+.Container-project h2 {
+  margin-left: -195px;
+  margin-top: 235px;
+}
+.Container-project p {
+  margin-top: 334px;
+  margin-left: -314px;
+  font-size: 17px;
+}
+.Container-project h1 {
+  margin-top: 67px;
+  margin-left: 108px;
+}
+.Project-img img {
+  height: 300px;
+  width: 460px;
+  margin-left: 142px;
+  margin-top: 228px;
+}
+
+
+
+

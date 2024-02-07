@@ -1,0 +1,115 @@
+/* .Main{
+    font-family: italic;
+    margin-left: 35px;
+}
+.Education_content{
+  margin-left: 149px;
+}
+.Skills_content{
+  margin-left: 149px;
+}
+h2{
+  margin-left: 0px;
+}
+  .Content-1 {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px; 
+    margin-left: 671px;
+  }
+  
+  p {
+    margin-right: 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ .Contact-1{
+  margin-right: 30px;
+  width: 550px;
+ }
+ .Resume{
+  font-size:  30px;
+  margin-left: 147px;
+ }
+.Email:hover {
+  cursor: pointer; 
+}
+.Year{
+  margin-right: 10px;
+}
+ul li{
+  font-size: 20px;
+} */
+
+.Parent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Resume {
+  font-size: 30px;
+  margin-left: 147px;
+}
+
+.Education_content,
+.Skills_content {
+  margin-left: 149px;
+}
+
+.Content-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 671px;
+}
+
+p {
+  margin-right: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Contact-1 {
+  margin-right: 30px;
+  width: 550px;
+}
+
+h2 {
+  margin-left: 0px;
+}
+
+.Email:hover {
+  cursor: pointer;
+}
+
+.Year {
+  margin-right: 26px;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .Parent {
+    padding: 20px;
+  }
+
+  .Content-1 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .Resume {
+    margin-left: 20px;
+  }
+
+  .Education_content,
+  .Skills_content {
+    margin-left: 20px;
+  }
+
+  .Contact-1 {
+    margin-right: 0;
+    width: 100%;
+  }
+}

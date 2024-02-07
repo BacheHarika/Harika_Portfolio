@@ -30,6 +30,7 @@
   
   .Icon {
     margin-right: 10px;
+    color: black;
   }
   .phone,
   .Email{
@@ -39,4 +40,33 @@
 footer h{
     font-weight: bold;
 }
-  
+@media screen and (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .Footer div {
+    margin-bottom: 20px;
+  }
+
+  .HorizontalLine {
+    margin-top: 30px;
+  }
+
+  .phone,
+  .Email {
+    margin-top: 20px;
+  }
+
+  .IconContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .Icon {
+    margin: 0 10px;
+  }
+}
