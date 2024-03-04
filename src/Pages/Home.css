@@ -76,7 +76,7 @@ p{
     outline: 1px solid black;  
   }
   .Content:nth-child(1) {
-    background-color:#B3E5FC; 
+    background-color:#ffe4e1; 
     color: #000;
     margin-bottom: 110px;
     font-family: italic;
@@ -85,7 +85,7 @@ p{
   }
   
   .Content:nth-child(2) {
-    background-color: #B2EBF2;
+    background-color: #fffacd;
     color: #000;
     margin-bottom: 110px;
     font-family: italic;
@@ -93,7 +93,7 @@ p{
   }
   
   .Content:nth-child(3) {
-    background-color:#B2DFDB; 
+    background-color:#e6e6fa; 
     color: black;
     margin-bottom: 110px;
     font-family: italic;

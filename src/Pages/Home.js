@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Pages/Home.css'
-import img3 from '../Assests/img3.jpg';
+import hari1 from '../Assests/hari1.jpg'
 const Home = () => {
   return (
     <>
       <div className='Container'>
         <div className='Image'>
-          <img src={img3} alt="Harika's Image" />
+          <img src={hari1} alt="Harika's Image" />
         </div>
         <div style={{marginLeft:'56px'}}>
           <div className='Text'>
