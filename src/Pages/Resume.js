@@ -42,8 +42,10 @@ Skills<br/>
       <li>Css</li>
       <li>Java Script</li>
       <li>React js</li>
-      <li>React Native</li>
-      <li>Git</li>
+      <li>React Native(Basics)</li>
+      <li>Git Hub</li>
+      <li>Bootstrap</li>
+      <li>Tailwind Css</li>
      </ul>
 
    </div>
